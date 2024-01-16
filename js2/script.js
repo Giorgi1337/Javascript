@@ -1,3 +1,4 @@
+"use strict";
 // homework js 2
 
 // 1
@@ -43,4 +44,46 @@ for (let i = 0; i < array2.length; i ++) {
     }
 }
 
+
+// 4
+const array3 = [1, 2, 3, 4, 5];
+
+let sum = 0;
+for (let i = 0; i < array3.length; i++){
+    sum += array3[i];
+}
+console.log(sum);
+
+// forEach
+let sumOfElements = 0;
+array3.forEach((el => sumOfElements += el));
+console.log(sumOfElements);
+
+// reduce
+let sumReduce = array3.reduce((acc, curr) => acc + curr, 0);
+console.log(sumReduce);
+
+/*
+        0 + 1 --> 1
+        1 + 2 --> 3
+        3 + 3 --> 6
+        6 + 4 --> 10
+        10 + 5 --> 15
+*/
+
+let arithmeticMean = 0;
+
+for (let i = 0; i < array3.length; i++) {
+    arithmeticMean += array3[i];
+}
+
+let mean = arithmeticMean / array3.length;
+console.log(mean);
+
+// or
+let result = array3.reduce((acc, curr) =>  {
+    return acc + curr;
+});
+let mean1 = result / array3.length;
+console.log(mean1)
 
