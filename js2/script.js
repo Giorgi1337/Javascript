@@ -160,3 +160,21 @@ for (const user of users) {
             console.log(user);
     }
 }
+
+// 11
+let array7 = [32, 14, 10, "hello", null, "40", 50];
+
+for (const el of array7) {
+    if (el % 5 === 0 && typeof el === "number"){
+        console.log(el);
+    }
+}
+
+// 12
+let array8 = [ [2, -3, 5, 11], [1, -35, -11], [12, -36, -24] ];
+for (const elem of array8) {
+    for (const num of elem) {
+        if (num > 0)
+            console.log(num)
+    }
+}
