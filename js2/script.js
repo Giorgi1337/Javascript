@@ -105,7 +105,7 @@ let user = {
     studentstatus: "active"
 };
 
-// Object.values() and join() to collect array of letters into string
+// Object.values() to get value and join() to collect array of letters into string
 let status = Object.values(user.studentstatus).join("");
 console.log(status)
 
@@ -128,4 +128,35 @@ if(user2.age < 18 && user2.studentstatus === "active"){
     console.log("hello anna")
 }else {
     console.log("error")
+}
+
+let res = user2.age < 18 && user2.studentstatus === "active"
+    ? "Hello user"
+    : user2.name === "levani"
+    ? "hello levani"
+    :  user2.studentstatus === "active" || user2.age < 25
+    ? "hello anna"
+            :"error";
+
+console.log(res)
+
+// 9
+let array6 = [ 2, 3, 5, 10,25,24,11, 100 , 6,7, 10 ];
+for (const n of array6) {
+    if (n % 2 === 0)
+        console.log(n)
+}
+
+// 10
+let users = [
+    {username: 'giorgi', status: false},
+    {username: 'levani', status: false},
+    {username: 'anna', status: true}
+]
+
+for (const user of users) {
+    for (const userKey in user) {
+        if (user.status === true)
+            console.log(user);
+    }
 }
