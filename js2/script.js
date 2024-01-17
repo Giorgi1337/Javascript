@@ -71,6 +71,8 @@ console.log(sumReduce);
         10 + 5 --> 15
 */
 
+// 5
+
 let arithmeticMean = 0;
 
 for (let i = 0; i < array3.length; i++) {
@@ -87,3 +89,43 @@ let result = array3.reduce((acc, curr) =>  {
 let mean1 = result / array3.length;
 console.log(mean1)
 
+// 6
+let array5 = [1, 2, 3, 7, 6, 9]
+for (let num of array5) {
+    if (num === 7)
+        continue;
+    console.log(num)
+}
+
+// 7
+let user = {
+    firstname: "giorgi",
+    lastname: "smith",
+    age: 25,
+    studentstatus: "active"
+};
+
+// Object.values() and join() to collect array of letters into string
+let status = Object.values(user.studentstatus).join("");
+console.log(status)
+
+const status1 = user.studentstatus;
+console.log(status1);
+
+
+// 8
+let user2 = {
+    name: 'anna',
+    age:  20,
+    studentstatus: 'active'
+}
+
+if(user2.age < 18 && user2.studentstatus === "active"){
+    console.log("Hello user");
+}else if(user2.name === "levani"){
+    console.log("hello levani");
+}else  if(user2.studentstatus === "active" || user2.age < 25){
+    console.log("hello anna")
+}else {
+    console.log("error")
+}
