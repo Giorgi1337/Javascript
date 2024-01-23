@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="412aa836-2966-4537-8838-8041df829b09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js3/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ayyFRHaOxwOvVeamPxOHDezQtv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.script.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Giorgi/Desktop/Javascript",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="script.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../../Program Files/nodejs/node" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/js2">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="412aa836-2966-4537-8838-8041df829b09" name="Changes" comment="" />
+      <created>1705305010434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705305010434</updated>
+      <workItem from="1705305012597" duration="1917000" />
+      <workItem from="1705320161076" duration="1000" />
+      <workItem from="1705387330804" duration="4000" />
+      <workItem from="1705401657624" duration="22000" />
+      <workItem from="1705421877256" duration="11541000" />
+      <workItem from="1705491481863" duration="5652000" />
+      <workItem from="1705511713675" duration="2582000" />
+      <workItem from="1705566418197" duration="3000" />
+      <workItem from="1705740071780" duration="799000" />
+      <workItem from="1705758355734" duration="24000" />
+      <workItem from="1705777140796" duration="114000" />
+      <workItem from="1705781038887" duration="1540000" />
+      <workItem from="1705828722644" duration="1183000" />
+      <workItem from="1705830390965" duration="595000" />
+      <workItem from="1705832195295" duration="47000" />
+      <workItem from="1705846320923" duration="45000" />
+      <workItem from="1705852705912" duration="142000" />
+      <workItem from="1705853102859" duration="20000" />
+      <workItem from="1705862478086" duration="640000" />
+      <workItem from="1705866209094" duration="753000" />
+      <workItem from="1705871834078" duration="62000" />
+      <workItem from="1705872176829" duration="407000" />
+      <workItem from="1705905386456" duration="194000" />
+      <workItem from="1705905588002" duration="16000" />
+      <workItem from="1705909492319" duration="9000" />
+      <workItem from="1705945433501" duration="2000" />
+      <workItem from="1706016770843" duration="328000" />
+      <workItem from="1706017242438" duration="6000" />
+      <workItem from="1706017934819" duration="2873000" />
+      <workItem from="1706029398744" duration="664000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
