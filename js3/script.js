@@ -84,7 +84,6 @@ const checkIfNumIsOddOrEven = (num) => {
     return "this number is odd";
 }
 
-
 const number1 = checkIfNumIsOddOrEven(2);
 console.log(number1)
 
@@ -101,3 +100,23 @@ console.log(number3)
 
 const number4 = checkIfNumIsOddOrEven1(10);
 console.log(number4)
+
+// 5
+let array = [1, 2, 3, 4, 5];
+
+for (let i = array.length; i > 0; i--) {
+    console.log(i)
+}
+
+// 6
+const checkIfUserIsAdult = (age) => {
+    return age >= 18 ? "Adult" : "Not adult";
+}
+
+const isAdult1 = checkIfUserIsAdult(25);
+
+console.log(isAdult1);
+
+const isAdult2 = checkIfUserIsAdult(17);
+
+console.log(isAdult2);
