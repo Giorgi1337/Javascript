@@ -91,4 +91,13 @@ console.log(number1)
 const number2 = checkIfNumIsOddOrEven(7);
 console.log(number2)
 
+// ternary operator
+const checkIfNumIsOddOrEven1 = (num) => {
+   return num % 2 === 0 ? "this number is even" : "this number is odd";
+}
 
+const number3 = checkIfNumIsOddOrEven1(1);
+console.log(number3)
+
+const number4 = checkIfNumIsOddOrEven1(10);
+console.log(number4)
