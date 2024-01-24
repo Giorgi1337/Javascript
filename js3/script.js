@@ -75,6 +75,20 @@ const maxNum = maxNumInArray(5, 25, 15, 10);
 
 console.log(maxNum)
 
+// 4
+const checkIfNumIsOddOrEven = (num) => {
+    if (num % 2 === 0) {
+        return "this number is even";
+    }
 
+    return "this number is odd";
+}
+
+
+const number1 = checkIfNumIsOddOrEven(2);
+console.log(number1)
+
+const number2 = checkIfNumIsOddOrEven(7);
+console.log(number2)
 
 
