@@ -131,6 +131,7 @@ const isPalindrome = (str) => {
 
         reversedText += currChar;
     }
+
     return str === reversedText;
 }
 
