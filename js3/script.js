@@ -138,3 +138,22 @@ const isPalindrome = (str) => {
 const checkIfIsPalindrome = isPalindrome("radar");
 
 console.log(checkIfIsPalindrome)
+
+
+const isPalindrome1 = (str) => {
+
+    let left = 0;
+    let right = str.length - 1;
+
+    while (left < right) {
+        if (str.charAt(left) !== str.charAt(right)) {
+            return str + "is not a palindrome";
+        }
+
+        return str + " is a palindrome";
+    }
+}
+
+const checkIfIsPalindrome1 = isPalindrome1("madam");
+
+console.log(checkIfIsPalindrome1)
