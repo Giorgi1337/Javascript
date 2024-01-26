@@ -131,7 +131,7 @@ const isPalindrome = (str) => {
 
         reversedText += currChar;
     }
-    return str === reversedText;
+    return str !== true ? str + " is a Palindrome" : str + "is not a Palindrome";
 }
 
 const checkIfIsPalindrome = isPalindrome("radar");
