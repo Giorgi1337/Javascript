@@ -120,3 +120,20 @@ console.log(isAdult1);
 const isAdult2 = checkIfUserIsAdult(17);
 
 console.log(isAdult2);
+
+// 7
+const isPalindrome = (str) => {
+    let reversedText = "";
+
+    for (let i = str.length - 1; i >= 0; i--) {
+
+        let currChar = str.charAt(i);
+
+        reversedText += currChar;
+    }
+    return str === reversedText;
+}
+
+const checkIfIsPalindrome = isPalindrome("radar");
+
+console.log(checkIfIsPalindrome)
