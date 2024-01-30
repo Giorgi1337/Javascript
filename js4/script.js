@@ -32,9 +32,9 @@ console.log(res)
 // 4
 /*let questsion = prompt("capital of georgia ?");
 
-let currAnswer = "tbilisi";
+let corrAnswer = "tbilisi";
 
-questsion.toLowerCase() === currAnswer ? alert("correct") : alert("not correct");*/
+questsion.toLowerCase() === corrAnswer ? alert("correct") : alert("not correct");*/
 
 // 5
 let fruits = ["apple", "mango", "avocado","kiwi"];
@@ -120,9 +120,9 @@ const resLanguages = languages.filter((el) => el.length > 3)
 console.log(resLanguages)
 
 // 15
-let words = ['madrid', 'rome', 'milan', 'berlin'];
+let words = ['Madrid', 'rome', 'milan', 'berlin'];
 
-const wordsRes = words.filter((el) => el.match(/m/));
+const wordsRes = words.filter((el) => el.match(/m/gi));
 
 console.log(words)
 console.log(wordsRes)
